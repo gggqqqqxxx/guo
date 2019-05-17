@@ -1,0 +1,243 @@
+.w(){
+  width: 100%;
+  height: 100%;
+}
+.hide{
+  display: none;
+}
+.r(){
+  margin: .6rem auto;
+}
+html,body{
+  .w()
+}
+
+body{
+  position: relative;
+}
+.music{
+  .music_icon{
+    width: 1rem;
+    height: 1rem;
+    position: fixed;
+    top:.5rem;
+    right: .5rem;
+    z-index: 22;
+    animation: move 1s linear infinite;
+    animation-play-state: paused;
+    img{
+      .w()
+    }
+  }
+}
+.swiper-container{
+  .swiper-wrapper{
+    .swiper-slide{
+      background: url("../img/bg.png") no-repeat;
+      background-size: 100% 100%;
+      overflow: hidden;
+    }
+  }
+}
+.content1{
+  width: 80%;
+  position: absolute;
+  top:.8rem;
+  left: 1rem ;
+  opacity: 0;
+  .logo{
+    width: 1.78rem;
+    height: .44rem;
+    .r();
+    padding-top: .5rem;
+    img{
+      .w()
+    }
+  }
+  .invite{
+    width: 1.644rem;
+    height: 5.656rem;
+    .r();
+    img{
+      .w()
+    }
+  }
+  .time{
+    width: 4.188rem;
+    height: .588rem;
+    position: relative;
+    left: 1rem;
+    img{
+      .w()
+    }
+    .tim{
+      width: 100%;
+      position: absolute;
+      top:0;
+      left: 0.2rem;
+      font-size: .38rem;
+      color: #fff;
+    }
+  }
+  .beijing_icon{
+    width: 1.2rem;
+    height: .8rem;;
+    margin: .5rem auto;
+    img{
+      .w();
+    }
+  }
+  .beijing{
+    text-align: center;
+    font-size: 0.5rem;
+    font-weight:500;
+  }
+}
+.content2 {
+  width: 80%;
+  height: 5.4rem;
+  position: absolute;
+  top: .8rem;
+  left: 1rem;
+  opacity: 0;
+  .element {
+    height: 5.4rem;
+    position: absolute;
+    top: .8rem;
+    left: 1rem;
+    color: #fff;
+    font-size: .35rem;
+    .bg1 {
+      width: 4.05rem;
+      height: 0.588rem;
+      position: relative;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      span {
+        position: absolute;
+        top: .05rem;
+        left: 1.4rem;
+
+      }
+    }
+    .text {
+      width: 4.2rem;
+      height: 1.04rem;
+      font-size: .28rem;
+      padding-top: .2rem;
+    }
+    .company {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+  }
+}
+.content3 {
+  width: 80%;
+  height: 5.4rem;
+  position: absolute;
+  top: .8rem;
+  left: 1rem;
+  opacity: 0;
+  .element {
+    height: 5.4rem;
+    position: absolute;
+    top: .8rem;
+    left: 1rem;
+    color: #fff;
+    font-size: .35rem;
+    .bg1 {
+      width: 4.05rem;
+      height: 0.588rem;
+      position: relative;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      span {
+        position: absolute;
+        top: .05rem;
+        left: 1.4rem;
+
+      }
+    }
+    .anpai {
+      color: rgb(171, 100, 40);
+      margin-left: -.6rem;
+      margin-top: 1.2rem;
+      font-size: .35rem;
+      p {
+        height: .8rem;
+      }
+    }
+  }
+}
+.content4 {
+  width: 80%;
+  height: 5.4rem;
+  position: absolute;
+  top: .8rem;
+  left: 1rem;
+  opacity: 0;
+  .element {
+    height: 5.4rem;
+    position: absolute;
+    top: .8rem;
+    left: 1rem;
+    color: #fff;
+    font-size: .35rem;
+    .bg1 {
+      width: 4.05rem;
+      height: 0.588rem;
+      position: relative;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      span {
+        position: absolute;
+        top: .05rem;
+        left: 1.4rem;
+
+      }
+    }
+    .form {
+      margin-top: 1rem;
+      margin-left: -.25rem;
+      input:not(.submit) {
+        width: 4.2rem;
+        height: .8rem;
+        border: 1px solid rgb(161, 84, 44);
+        margin-bottom: 0.4rem;
+        padding-left: .3rem;
+        box-sizing: border-box;
+      }
+      .submit {
+        width: 4.2rem;
+        height: 1rem;
+        background-color: rgba(194, 114, 72, 1);
+        color: #fff;
+        outline: none;
+      }
+    }
+    .address {
+      color: rgb(171, 100, 40);
+      p {
+        margin-top: .2rem;
+
+      }
+    }
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
